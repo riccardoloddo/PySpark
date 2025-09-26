@@ -1,0 +1,9 @@
+IDRUN=1, Operazione=Costruttore, Stato=OK, File=../data/Flusso.csv, Data=2025-09-26 10:54:40
+IDRUN=1, Operazione=GivemeDataFrame, Stato=OK, Data=2025-09-26 10:54:40
+IDRUN=1, Operazione=pulisci, Filtro=SALARIO, Righe=15, Data=2025-09-26 10:54:40
+IDRUN=1, Operazione=pulisci, Filtro=DN, Righe=14, Data=2025-09-26 10:54:41
+IDRUN=1, Operazione=pulisci, Filtro=NOME, Righe=16, Data=2025-09-26 10:54:41
+IDRUN=1, Operazione=pulisci, Filtro=CF, Righe=15, Data=2025-09-26 10:54:41
+IDRUN=1, Operazione=pulisci, Totale righe OK=7, Totale righe KO=15, Data=2025-09-26 10:54:41
+IDRUN=1, Operazione=pulisci, DF_OK righe=7, DF_SCARTI righe=15, Data=2025-09-26 10:54:42
+IDRUN=1 - Tabelle create: df_grezzo=22, tab_ok=7, tab_scarti=15, Data=2025-09-26 10:54:43.257998
