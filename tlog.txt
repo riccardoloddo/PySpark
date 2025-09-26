@@ -59,3 +59,6 @@ IDRUN=1, Operazione=GivemeDataFrame, Stato=OK, Data=2025-09-25 17:54:11
 IDRUN=2, Operazione=GivemeDataFrame, Stato=OK, Data=2025-09-25 17:54:11
 NumExpr defaulting to 4 threads.
 IDRUN=1, Operazione=Costruttore, Stato=OK, File=Flusso.csv, Data=2025-09-26 09:13:45
+IDRUN=1, Operazione=Show, Stato=OK, Righe=22, Data=2025-09-26 09:13:50
+IDRUN=1, Operazione=Costruttore, Stato=OK, File=data\Flusso.csv, Data=2025-09-26 09:32:13
+IDRUN=1, Operazione=Show, Stato=OK, Righe=22, Data=2025-09-26 09:32:14
