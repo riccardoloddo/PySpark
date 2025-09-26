@@ -15,7 +15,7 @@ L’obiettivo è mostrare come organizzare una semplice pipeline di data process
 ---
 
 ## Struttura del progetto
-
+``` 
 PySpark/
 ├─ src/ # codice sorgente (es. tabella_dipendenti.py)
 ├─ data/ # CSV di esempio (Flusso.csv, Flusso2.csv)
@@ -26,6 +26,7 @@ PySpark/
 ├─ .gitignore
 ├─ README.md
 └─ requirements.txt
+```
 
 ---
 
