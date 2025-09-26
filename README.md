@@ -37,3 +37,33 @@ PySpark/
 Installazione rapida di PySpark:
 ```bash```
 pip install pyspark
+
+## Istruzioni per l'esecuzione
+
+1. Copia i file CSV di input nella cartella `data/`.  
+   Esempio:
+   ```
+   data/Flusso.csv
+   data/Flusso2.csv
+   ```
+
+2. Installa le dipendenze del progetto:
+```bash
+pip install -r requirements.txt
+```
+
+3. Esegui gli script Python dalla cartella `src/`.  
+   Esempio:
+```bash
+python src/tabella_dipendenti.py
+```
+
+4. I log generati durante l'esecuzione saranno salvati in `logs/`.
+
+
+## Note
+
+- Assicurati che tutti i CSV siano nella cartella `data/` prima di eseguire gli script.  
+- Gli script sono modulari: puoi aggiungere nuovi flussi o validazioni modificando i file in `src/`.  
+- I record validi e non validi vengono separati automaticamente secondo le regole definite negli script.
+
