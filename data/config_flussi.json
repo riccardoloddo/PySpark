@@ -1,0 +1,33 @@
+{
+  "flusso": {
+    "columns": {
+      "SALARIO": {"type": "positive_number"},
+      "DN": {"type": "date", "format": "yyyy-MM-dd"},
+      "NOME": {"type": "string_no_numbers"},
+      "CF": {"type": "string_length", "length": 16}
+    }
+  },
+  "flusso_dip": {
+    "columns": {
+      "SPESA_TOTALE": {"type": "positive_number"},
+      "DATA_ISCRIZIONE": {"type": "date", "format": "yyyy-MM-dd"},
+      "EMAIL": {"type": "email"},
+      "NOME": {"type": "string_no_numbers"},
+      "COGNOME": {"type": "string_no_numbers"}
+    }
+  },
+  "unitacr": {
+    "columns": {
+      "COD_UNT": {"type": "positive_number"},
+      "COD_ACR": {"type": "string_length", "length": 3}
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+}
