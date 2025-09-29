@@ -2,7 +2,7 @@
 
 Questo repository contiene un **microprogetto in PySpark** per la lettura, la pulizia e la validazione di dataset relativi ai dipendenti.  
 L’obiettivo è mostrare come organizzare una pipeline dinamica di data processing con Spark, mantenendo log delle operazioni e distinguendo i dati validi da quelli errati.
-Si è implementato poi, tramite oracledb, un metodo per inserire la tabelle filtrate nelle tabelle 02 del motorino.
+Si è implementato poi, tramite **OracleDB**, un metodo per inserire la tabelle filtrate nelle tabelle 02 del motorino.
 
 ---
 
