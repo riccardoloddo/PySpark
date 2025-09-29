@@ -1,8 +1,0 @@
-IDRUN=1, Operazione=Costruttore, Stato=OK, File=../data/unitacr.csv, Data=2025-09-27 17:03:04
-IDRUN=1, Operazione=givemedataframe, Stato=OK, Data=2025-09-27 17:03:04
-IDRUN=1, Operazione=pulisci, Filtro=COD_UNT, Righe OK=25, Data=2025-09-27 17:03:04
-IDRUN=1, Operazione=pulisci, Filtro=COD_ACR, Righe OK=22, Data=2025-09-27 17:03:04
-IDRUN=1 - Tabelle create: df_grezzo=25, tab_ok=22, tab_scarti=3, Data=2025-09-27 17:03:05.034234
-IDRUN=1, Operazione=Show, Stato=OK, Righe=22, Data=2025-09-27 17:03:08
-IDRUN=1, Operazione=givemedataframe, Stato=OK, Data=2025-09-27 17:03:13
-IDRUN=1, Operazione=printSchema, Stato=OK, Data=2025-09-27 17:03:15
