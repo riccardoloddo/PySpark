@@ -2,7 +2,7 @@
 
 Questo repository contiene un **microprogetto in PySpark** per la lettura, la pulizia e la validazione di dataset relativi ai dipendenti.  
 L’obiettivo è mostrare come organizzare una pipeline dinamica di data processing con Spark, mantenendo log delle operazioni e distinguendo i dati validi da quelli errati.
-
+Si è implementato poi, tramite oracledb, un metodo per inserire la tabelle filtrate nelle tabelle 02 del motorino.
 ---
 
 ## Funzionalità principali
@@ -104,6 +104,7 @@ python src/data_processor.py
 - Il codice è modulare: è possibile aggiungere nuovi flussi o regole di validazione modificando i file in `src/`.  
 - La separazione dei record validi e non validi avviene automaticamente in base alle regole definite.  
 - Attualmente non è prevista storicizzazione dei dati: la colonna `IDRUN` serve solo per distinguere i flussi durante la singola esecuzione.
+- Provato solo con tabella unità, ma è un pò diverso dalla logica del motorino. Non ho ID_PER e la struttura del flusso è leggermente diversa. 
 
 ## Possibili Miglioramenti
 
